@@ -27,7 +27,7 @@ function LunchCheckController($scope) {
 
 		if(dishesNo == 0) {
 			// Alert to add some dishes
-			$scope.message = "Add some dishes first!";
+			$scope.message = "Please enter data first";
 			$scope.result = "text-danger";
 			$scope.inpResult = "has-error";
 			console.log("No countable dishes!");
@@ -40,7 +40,7 @@ function LunchCheckController($scope) {
 			$scope.inpResult = "has-success";
 		}
 		else {
-			$scope.message = "Enjoy";
+			$scope.message = "Enjoy!";
 			$scope.result = "text-success";
 			$scope.inpResult = "has-success";
 		}
