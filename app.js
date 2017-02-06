@@ -11,7 +11,7 @@ function LunchCheckController($scope) {
 	$scope.message= "";
 	$scope.inpResult = "";
 
-	$scope.dishesA = function() {
+	$scope.check = function() {
 		var dishesArr = $scope.dishes.split(',');
 		var arrLength = dishesArr.length;
 		var dishesNo = 0;
